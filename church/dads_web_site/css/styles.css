@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Chapter 13 in the book with my own pictures and logos */
+
+body {
+font-size: 80%;
+font-family: "Courier New", Courier, monospace;
+letter-spacing: 0.15em;
+background-color:#000;
+}
+
+#page {
+max-width: 940px;
+min-width: 720px;
+margin: 10px auto 10px auto;
+padding: 20px;
+border: 7px double #960;
+background-color:#ffffff;	
+}
+h1 {
+	text-align:center;
+
+}
+
+h3 {
+	border: 5px solid #960;
+	padding:20px;
+	width:275;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	width:420px; 
+min-height:15px; 
+height:auto!important; 
+color:#666; padding: 1%; 
+font-size: 14px; 
+font-weight:bold;
+word-wrap: break-word; 
+text-align: left
+}
+#logo {
+float:right;
+width: 150;
+margin: 10px auto 10px auto;
+}
+
+
+#test {
+padding-left:18%;
+}
+#nav,
+#nav {
+    list-style: none;
+
+}
+#nav {
+    float:left;
+}
+#nav > li {
+    float:left;
+}
+#nav li a {
+display:block;
+    height: 3em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+#nav ul {
+    position: absolute;
+    display: none;
+   z-index: 999; 
+}
+#nav ul li a {
+    width: 80px;
+}
+#nav li:hover ul {
+    display: block;
+}
+/* Main menu
+------------------------------------------*/
+#nav {
+    font-family: Arial;
+    font-size: 15px;
+    background: #000;
+}
+#nav > li > a {
+    color: #FFF;
+    font-weight: bold;
+}
+#nav > li:hover > a {
+    background: #960;
+    color: #FFF;
+}
+ 
+/* Submenu
+------------------------------------------*/
+#nav ul {
+    background: #000;
+
+}
+#nav ul li a {
+    color: #FFF;
+}
+#nav ul li:hover a {
+    background: #960;
+}
+
+
+p { 
+text-align:center;
+width: 600px;
+margin: 20px auto 20px auto;
+font-weight: normal;
+}
+
+a {
+color: #000000;
+text-transform: uppercase;
+text-decoration: none;
+padding: 6px 18px 5px 18px;	
+}
+
+a:hover, a.on {
+color: #cc3333; 	
+background-color: #FFF;	
+}
+
+.footer {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:75%;
+	text-align:left;
+}
+.footer a {
+	color:#807c72;
+}
+
+div {
+	border:solid 1px black;
+	clear:both;
+		
+}
+
+div h2 {
+	text-align:center;
+}
